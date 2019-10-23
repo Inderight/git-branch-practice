@@ -6,6 +6,8 @@ for i in range(1, 100+1):
         print("buzz")
     elif i%3==0:
         print("fizz")
+    elif i%2==0:
+        print("fizzbuzz2")
 
     else:
         print(i)
